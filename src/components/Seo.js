@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStationQuery, graphql } from 'gatsby';
 
-const SEO = ({ title }) => {
+const Seo = ({ title }) => {
 	return (
 		<Helmet title={title}></Helmet>
 	);
 }
 
-export default SEO;
+export default Seo;
